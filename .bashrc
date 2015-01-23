@@ -115,6 +115,8 @@ fi
 
 #### Set by Janosch
 
+#using vim comads to move
+set -o vi
 
 ### Git bindings ###
 ### This is mainly from http://githowto.com/aliases
