@@ -128,6 +128,7 @@ alias gd='git diff'
 alias go='git checkout '
 alias gk='gitk --all&'
 alias gp='git push'
+alias gu='git pull'
 alias gx='gitx --all'
 
 alias got='git '
