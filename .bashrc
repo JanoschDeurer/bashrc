@@ -115,8 +115,13 @@ fi
 
 #### Set by Janosch
 
-#using vim comads to move
+# using vim comads to move
 set -o vi
+
+# add local settings that should not be syncronized between different
+# machines
+source ~/.bashrc_local
+
 
 ### Git bindings ###
 ### This is mainly from http://githowto.com/aliases
@@ -134,6 +139,12 @@ alias gx='gitx --all'
 alias got='git '
 alias get='git '
 
+### Other programms ###
+alias jameica='/opt/jameica/jameica.sh'
+alias ja='jameica'
+
 ### Typo bindings ###
 alias sl='ls '
+
+alias cls='printf "\033c"'
 
