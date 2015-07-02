@@ -118,6 +118,9 @@ fi
 # using vim comads to move
 set -o vi
 
+# set vim as default editor
+export EDITOR='/usr/bin/vim'
+
 # add local settings that should not be syncronized between different
 # machines
 source ~/.bashrc_local
