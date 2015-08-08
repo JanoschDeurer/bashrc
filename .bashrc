@@ -143,6 +143,8 @@ alias get='git '
 alias jameica='/opt/jameica/jameica.sh'
 alias ja='jameica'
 
+alias m='mplayer -af scaletempo -input conf=${HOME}/.bash/bashrc/mplayer-input.conf'
+
 ### Typo bindings ###
 alias sl='ls '
 
