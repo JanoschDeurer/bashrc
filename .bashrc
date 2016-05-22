@@ -142,14 +142,24 @@ alias gx='gitx --all'
 alias got='git '
 alias get='git '
 
+### du ###
+### Make usage of du easier ###
+
+alias duu='du -sch ./* | sort -h'
+alias dua='du -sh .[!.]* * | sort -h'
+
 ### Other programms ###
 alias jameica='/opt/jameica/jameica.sh'
 alias ja='jameica'
+alias p='ping 8.8.8.8'
+alias r='ranger'
 
 alias m='mplayer -af scaletempo -input conf=${HOME}/.bash/bashrc/mplayer-input.conf'
+
 
 ### Typo bindings ###
 alias sl='ls '
 
 alias cls='printf "\033c"'
+alias c='cls'
 
